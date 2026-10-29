@@ -9,6 +9,5 @@ terraform {
   }
 }
 
-# Аутентификация выполняется через YC_TOKEN, YC_CLOUD_ID и YC_FOLDER_ID
-# либо через настроенный профиль Yandex Cloud CLI.
+# Аутентификация выполняется через YC_TOKEN, YC_CLOUD_ID и YC_FOLDER_ID.
 provider "yandex" {}
